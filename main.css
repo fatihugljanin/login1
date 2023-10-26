@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+/****************************
+          Global style
+****************************/
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  background-color: #fff;
+  line-height: 1.2;
+  padding: 1px;
+  margin: 0;
+  color: #333;
+  font-family: 'Roboto Flex', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+/****************************
+          Layout
+****************************/
+.container {
+  width: 400px;
+  margin: 100px auto;
+  /* outline: 1px dotted red; */
+}
+/****************************
+          Specific style
+****************************/
+.mobile-holder {
+  width: 360px;
+  border-radius: 40px;
+  padding: 70px 40px;
+  border: 10px solid #1e1e1e;
+  outline: 5px solid grey;
+}
+header {
+  position: relative;
+}
+header h1 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+header p {
+  margin-top: 0;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+header .crni {
+  width: 150px;
+  height: 25px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  position: absolute;
+  top: -190%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.form div label {
+  text-transform: capitalize;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-bottom: 8px;
+}
+.form p {
+  text-align: center;
+  margin-top: 5px;
+}
+.form nav {
+  width: 240px;
+  margin: 0 auto;
+}
+.form nav ul li {
+  float: left;
+}
+.form nav ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  margin: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 46px;
+  font-size: 25px;
+  border: 2px solid #1e1e1e;
+  transition: all 0.5s ease;
+}
+form nav ul li a:hover {
+  scale: 1.2;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+#signup {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #1e1e1e;
+  transition: all 0.5s ease;
+}
+#signup:hover {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+footer a {
+  font-weight: 600;
+}
+
+/****************************
+          Helper classes
+****************************/
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.clearfix::after,
+.clearfix::before {
+  content: ' ';
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}

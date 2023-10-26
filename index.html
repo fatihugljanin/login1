@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 4</title>
+    <script
+      src="https://kit.fontawesome.com/b9193f739e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile-holder">
+        <header>
+          <h1>Welcome!</h1>
+          <p>Sign up to get started.</p>
+          <div class="crni"></div>
+        </header>
+        <main>
+          <section>
+            <form method="post" action="login.html" class="form">
+              <div>
+                <label for="username">username</label>
+              </div>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username..."
+                required
+              />
+              <div>
+                <label for="useremail">email</label>
+              </div>
+              <input
+                type="email"
+                name="username"
+                id="useremail"
+                placeholder="test@gmail.com"
+                required
+              />
+              <div>
+                <label for="userpassword">password</label>
+              </div>
+              <input
+                type="password"
+                name="userpassword"
+                id="userpassword"
+                placeholder="********"
+                required
+              />
+              <p>or</p>
+              <nav>
+                <ul class="clearfix list-reset">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </nav>
+              <input type="submit" name="signup" id="signup" value="Sign up" />
+            </form>
+          </section>
+        </main>
+        <footer>
+          <form action="login.html"></form>
+          <p>Already have an account?</p>
+          <a href="login.html">Log in</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
